@@ -1,0 +1,24 @@
+.ens_servers {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.server {
+	text-align: center;
+	padding: 20px;
+	border: 1px solid rgba(0,0,0,0);
+	display: flex;
+	flex-direction: column;
+	max-width: 125px;
+}
+
+.server:hover {
+	border: 1px solid gainsboro;
+	cursor: pointer;
+}
+
+.server img {
+	display: flex;
+	max-width: 125px;
+}
